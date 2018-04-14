@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node server/server.js",
     "test": "mocha server/**/*.test.js",
     "test-watch": "nodemon --exec 'npm test'"
   },
   "author": "klequis <klequis@gmail.com> (http://trivalleycoders.com/)",
   "license": "MIT",
+  "engines:": {
+    "node": "9.3.0"
+  },
   "dependencies": {
     "body-parser": "1.18.2",
     "express": "4.16.3",
